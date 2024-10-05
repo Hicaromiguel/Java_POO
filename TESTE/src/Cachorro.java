@@ -1,11 +1,4 @@
 public class Cachorro extends Animal {
-    public void VerStatus() {
-        System.out.println("***CACHORRO***");
-        System.out.println("esta acordado? "+isAcordado());
-        System.out.println("esta latindo? "+isLatindo());
-        System.out.println("esta com fome? "+isFome());
-        System.out.println("chorou quantas lagrimas? "+getChorando());
-    }
     @Override
     public void setAcordado(boolean acordado) {
         super.setAcordado(acordado);
